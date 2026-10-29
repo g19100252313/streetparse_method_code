@@ -100,10 +100,10 @@ Cityscapes/
 
 评价结果由 `summary.json`、`per_image_group.csv`、逐图量化 JSON 与示例图组成。多种子汇总计算运行均值及样本标准差。
 
-## 固定子集入口
+## 固定入口
 
 ```powershell
-.\.venv\Scripts\python.exe -m streetparse.cli prepare-subset --data E:\wksp\tests\test1\Cityscapes --output subsets/cityscapes100 --train-size 100 --val-size 20 --subset-seed 2026
+.\.venv\Scripts\python.exe -m streetparse.cli prepare-subset --data 
 .\.venv\Scripts\python.exe subset_experiments.py --data E:\wksp\tests\test1\Cityscapes --variants proposed --run
 ```
 
